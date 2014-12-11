@@ -2,7 +2,7 @@
 {%- for page in pages %}
     <li>
         <a href="{{ url_for("page", path=page.path) }}" title="{{ page.title }}">
-            <img src="/static/{{ page.path }}/thumb.jpg" alt="{{ page.title }}"></a>
+            <img src="/gleeguesite/static/{{ page.path }}/thumb.jpg" alt="{{ page.title }}"></a>
     </li>
 {%- else %}
     <li>No photo (yet?)</li>
