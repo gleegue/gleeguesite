@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<article>
+    <figure><img src="{{ repo }}/static/img/gltales.jpg" alt=""></figure>
+</article>
+<article>
+    <figure><img src="{{ repo }}/static/img/gltales_page2.jpg" alt=""></figure>
+</article>
+<article>
+    <figure><img src="{{ repo }}/static/img/gltales_page3.jpg" alt=""></figure>
+</article>
+
+    
+{% filter markdown %}
+Stay tuned for more GL tales!
+    
+{% endfilter %}
+
+{% endblock contents %}

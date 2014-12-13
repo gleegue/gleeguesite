@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block contents %}
+<article>
+    <figure><img src="{{ repo }}/static/img/quote.jpg" alt=""></figure>
+{% filter markdown %}
+Here are going to be all the Discover diaries!
+    
+
+</article>
+{% endfilter %}
+
+{% endblock contents %}
