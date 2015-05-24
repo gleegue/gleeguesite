@@ -1,32 +1,48 @@
 <!doctype html>
-<html class="no-js" lang="{% block lang %}en{% endblock lang %}">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
-    {% block extra_head %}{% endblock %}
-    <title>{% block page_title %}Home{% endblock page_title %}</title>
+    
+    <title>Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link href="//fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    {%- assets filters="cssmin", output="packed.css",
-    "css/style.css",
-    "js/libs/prettify/sons-of-obsidians.css"
-    %}
-        <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
-    {%- endassets %}
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?7cd2ac7f">
     <!--<link rel="shortcut icon" href="favicon.ico" />-->
     <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
 </head>
-<body class="{% block section %}home{% endblock %} {% block body_class %}{% endblock body_class %}" onload="prettyPrint()">
+<body class="home " onload="prettyPrint()">
 <!--<body>-->
     <div class="container">
         <header class="main-title">
-            <h1><a href="{{ url_for("index") }}"><strong>G-Leegue</strong></a></h1>
+            <h1><a href="/"><strong>G-Leegue</strong></a></h1>
             <small>To infinity and beyond</small>
         </header>
         
         <main class="contents" role="main">
-            {% block contents %}
-            <p>No content found.</p>
-            {% endblock contents %}
+            
+    <h2>List of stuff tagged <em>filarial</em></h2>
+<li>
+<h3>
+<a itemprop="url" href="/blog/story-of-the-threads/what-is-long-thin-and-blue/"><span itemprop="name">What is long, thin and blue?</span></a>
+</h3>
+<p><q itemprop="description"><em>Ola Amigos! Que pasa! Como Esta?? So remember the red thread? The red thread had a dream.. to be a CIA agent! It went through 4 years ...</em></q></p>
+<hr>
+</li>
+<li>
+<h3>
+<a itemprop="url" href="/blog/story-of-the-threads/what-is-long-thin-and-red/"><span itemprop="name">What is long, thin and red?</span></a>
+</h3>
+<p><q itemprop="description"><em>Hola Amigos of GL who either say- el amor de mi vida and also say - fue un flechazo! Annette, Chaitra, Anoorag, Shyaamlal and me would ...</em></q></p>
+<hr>
+</li>
+<li>
+<h3>
+<a itemprop="url" href="/blog/story-of-the-threads/what-is-long-thin-and-black/"><span itemprop="name">What is long, thin and black?</span></a>
+</h3>
+<p><q itemprop="description"><em>Konichiwa!! Okay now that 99 percent of you thought black thread first and then hair strand... :D - both of which are wrong yo! Sruthi ...</em></q></p>
+<hr>
+</li>
+
         </main>
         
         <nav class="sidebar">

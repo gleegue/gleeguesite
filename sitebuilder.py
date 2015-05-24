@@ -136,13 +136,31 @@ def tag(tag):
     tagged = [p for p in pages if tag in p.meta.get('tags', [])]
     return render_template('tag.html', pages=tagged, tag=tag, repo=REPO)
 
+
+#URL GENERATORS
+
+@freezer.register_generator
+def section():
+    for page in pages:
+        section = page.path.split('/')[0]
+        # ensure an accurate "section" meta is available
+        section = page.meta.get('section', section)
+
+        yield {'section': section}
+
+
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         app.debug = False
-        # REPO = '/'+REPO_NAME     # works great for github pages, but not for gleegue.org
+        REPO = '/'+REPO_NAME     # works great for github pages, but not for gleegue.org
         asset_manager.config['ASSETS_DEBUG'] = False
         freezer.freeze()
+        #local("cp ./static/*.ico ./build/")
+        #local("cp ./static/*.txt ./build/")
+        #local("cp ./static/*.xml ./build/")
+        print("Done.")
     elif len(sys.argv) > 1 and sys.argv[1] == "serve":
+        REPO = '/' + REPO_NAME
         freezer.serve(port=4000)
     else:
         app.run(port=8000)

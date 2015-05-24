@@ -1,32 +1,37 @@
 <!doctype html>
-<html class="no-js" lang="{% block lang %}en{% endblock lang %}">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
-    {% block extra_head %}{% endblock %}
-    <title>{% block page_title %}Home{% endblock page_title %}</title>
+    
+    <title>Resources</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link href="//fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    {%- assets filters="cssmin", output="packed.css",
-    "css/style.css",
-    "js/libs/prettify/sons-of-obsidians.css"
-    %}
-        <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
-    {%- endassets %}
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?7cd2ac7f">
     <!--<link rel="shortcut icon" href="favicon.ico" />-->
     <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
 </head>
-<body class="{% block section %}home{% endblock %} {% block body_class %}{% endblock body_class %}" onload="prettyPrint()">
+<body class="resources " onload="prettyPrint()">
 <!--<body>-->
     <div class="container">
         <header class="main-title">
-            <h1><a href="{{ url_for("index") }}"><strong>G-Leegue</strong></a></h1>
+            <h1><a href="/"><strong>G-Leegue</strong></a></h1>
             <small>To infinity and beyond</small>
         </header>
         
         <main class="contents" role="main">
-            {% block contents %}
-            <p>No content found.</p>
-            {% endblock contents %}
+            
+<p>Shiken is the examination project, we conduct shiken sessions to GL kids every quarter of the year. Shiken report cards and other stats will be updated here soon.</p>
+<p>Shiken articles:</p>
+<ol>
+<li>
+<p><a href="/blog/shiken/shiken-the-movie">Shiken the movie</a></p>
+</li>
+<li>
+<p><a href="/blog/shiken/the-vision">Shiken's vision</a></p>
+</li>
+</ol>
+
+
         </main>
         
         <nav class="sidebar">
