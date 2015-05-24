@@ -148,6 +148,17 @@ def section():
 
         yield {'section': section}
 
+@freezer.register_generator
+def page():
+    pages_path = os.path.join(app.root_path, 'pages')
+    for page in list(os.walk(pages_path)):
+        if len(page) >= 3 and not page[1]:
+            dir = page[0].split("/pages")[1]
+            for file in page[2]:
+                path = dir + '/' + file.split(".md")[0]
+                #print(path)
+                yield {'path': path}
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
