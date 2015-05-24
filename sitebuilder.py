@@ -152,7 +152,7 @@ def section():
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         app.debug = False
-        REPO = '/'+REPO_NAME     # works great for github pages, but not for gleegue.org
+        #REPO = '/'+REPO_NAME     # works great for github pages, but not for gleegue.org
         asset_manager.config['ASSETS_DEBUG'] = False
         freezer.freeze()
         #local("cp ./static/*.ico ./build/")
