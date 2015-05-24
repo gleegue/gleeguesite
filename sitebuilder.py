@@ -19,9 +19,11 @@ APP_DIR = os.path.dirname(os.path.abspath(__file__))
 #    return os.path.abspath(os.path.join(path, os.pardir))
 
 PROJECT_ROOT = APP_DIR
+
 # In order to deploy to Github pages, you must build the static files to
 # the project root
 FREEZER_DESTINATION = PROJECT_ROOT
+
 # Since this is a repo page (not a Github user page),
 # we need to set the BASE_URL to the correct url as per GH Pages' standards
 #FREEZER_BASE_URL = "http://localhost/{0}".format(REPO_NAME)
@@ -107,10 +109,8 @@ def index():
 def page(path):
     # compute current "section" from path
     section = path.split('/')[0]
-    print section
     page = pages.get_or_404(path)
-    print page
-    #print "page: ", page
+
     # ensure an accurate "section" meta is available
     page.meta['section'] = page.meta.get('section', section)
     # allow preview of unpublished stuff in DEBUG mode
@@ -119,20 +119,22 @@ def page(path):
     template = page.meta.get('template', '%s/page.html' % section)
     return render_template(template, page=page, section=section)
 
-
 @app.route('/<string:section>/')
 def section(section):
-    #print "section: ", section
     if not section_exists(section):
-        print "I am here"
         abort(404)
     template = '%s/index.html' % section
-    #print template
+
     articles = get_pages(pages, limit=SECTION_MAX_LINKS, section=section)
-    #print "art:", articles
+
     years = get_years(get_pages(pages, section=section))
     return render_template(template, pages=articles, years=years, repo=REPO)
 
+@app.route('/tag/<string:tag>/')
+def tag(tag):
+    #articles = get_pages(pages, limit=SECTION_MAX_LINKS, section="blog")
+    tagged = [p for p in pages if tag in p.meta.get('tags', [])]
+    return render_template('tag.html', pages=tagged, tag=tag, repo=REPO)
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":

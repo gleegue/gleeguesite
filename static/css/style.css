@@ -53,26 +53,7 @@ blockquote {
   border-left: 7px solid #eeeeee;
   padding-left: 14px;
 }
-figure {
-  margin: 0;
-  padding: 0;
-}
-figure figcaption {
-  max-width: 660px;
-  margin: 0px 0 0 0;
-  font-size: 14px;
-  text-align: right;
-  font-style: italic;
-}
-.home figure,
-.tracking-sheets figure,
-.photos figure,
-.blog figure,
-.gl-tales figure,
-.resources figure,
-.discover-diaries figure {
-  margin-top: 1.45em;
-}
+
 h1,
 h2,
 h3,
@@ -110,6 +91,11 @@ img {
 p {
   line-height: 28px;
   margin: 28px 0;
+}
+p.footer {
+  line-height: 28px;
+  margin: 28px 0;
+  text-align: center;
 }
 pre {
   padding: 14px;
@@ -217,47 +203,47 @@ q:after {
   background: #ddd;
   padding: 5px 10px;
 }
-
 .sidebar {
-  position: fixed;
-  top: 190px;
-  width: 250px;
+position: fixed;
+top: 190px;
+width: 250px;
 }
 .sidebar ul {
-  list-style-type: none;
+list-style-type: none;
 }
 .sidebar ul li {
-  font-size: 28px;
-  line-height: 41.5px;
-  text-align: right;
+font-size: 28px;
+line-height: 41.5px;
+text-align: right;
 }
 .sidebar ul li a {
-  color: #aaaaab;
-  font-weight: bold;
-  text-decoration: none;
+color: #aaaaab;
+font-weight: bold;
+text-decoration: none;
 }
 .sidebar ul li a span {
-  font-size: 18px;
+font-size: 18px;
 }
 .sidebar ul li a span:before {
-  content: "(";
+content: "(";
 }
 .sidebar ul li a span:after {
-  content: ")";
+content: ")";
 }
 .sidebar ul li a:focus,
 .sidebar ul li a:hover {
-  color: #333334;
-  text-decoration: none;
+color: #333334;
+text-decoration: none;
 }
+
 .site-footer {
   clear: both;
-  margin-left: 30%;
-  font-size: 15.400000000000002px;
+  margin-left: 50%;
+
 }
 .site-footer p {
   padding-top: 14px;
-  border-top: 1px solid #ddd;
+
 }
 .viewer {
   display: block;
@@ -280,6 +266,7 @@ q:after {
   top: 50%;
   left: 50%;
 }
+
 .activeSection {
   color: #333334;
   text-decoration: none;
@@ -287,13 +274,15 @@ q:after {
 .activeSection:after {
   content: "\00A0\00BB";
 }
-body.tracking-sheets .sidebar li.tracking-sheets a {
+
+body.track .sidebar li.track a {
   color: #333334;
   text-decoration: none;
 }
-body.tracking-sheets .sidebar li.tracking-sheets a:after {
+body.track .sidebar li.track a:after {
   content: "\00A0\00BB";
 }
+
 body.photos  .sidebar li.photos a {
   color: #333334;
   text-decoration: none;
@@ -301,6 +290,7 @@ body.photos  .sidebar li.photos a {
 body.photos .sidebar li.photos a:after {
   content: "\00A0\00BB";
 }
+
 body.blog .sidebar li.blog a {
   color: #333334;
   text-decoration: none;
@@ -308,13 +298,23 @@ body.blog .sidebar li.blog a {
 body.blog .sidebar li.blog a:after {
   content: "\00A0\00BB";
 }
-body.gl-tales .sidebar li.gl-tales a {
+
+body.gltales .sidebar li.gltales a {
   color: #333334;
   text-decoration: none;
 }
-body.gl-tales .sidebar li.gl-tales a:after {
+body.gltales .sidebar li.gltales a:after {
   content: "\00A0\00BB";
 }
+
+body.projects .sidebar li.projects a {
+  color: #333334;
+  text-decoration: none;
+}
+body.projects .sidebar li.projects a:after {
+  content: "\00A0\00BB";
+}
+
 body.home .sidebar li.home a {
   color: #333334;
   text-decoration: none;
@@ -322,6 +322,7 @@ body.home .sidebar li.home a {
 body.home .sidebar li.home a:after {
   content: "\00A0\00BB";
 }
+
 body.resources .sidebar li.resources a {
   color: #333334;
   text-decoration: none;
@@ -329,32 +330,13 @@ body.resources .sidebar li.resources a {
 body.resources .sidebar li.resources a:after {
   content: "\00A0\00BB";
 }
-body.discover-diaries .sidebar li.discover-diaries a {
+
+body.shiken .sidebar li.shiken a {
   color: #333334;
   text-decoration: none;
 }
-body.discover-diaries .sidebar li.discover-diaries a:after {
+body.shiken .sidebar li.shiken a:after {
   content: "\00A0\00BB";
-}
-body.darkroom {
-  background: #000;
-  color: #eee;
-}
-body.darkroom a {
-  color: #eee;
-}
-body.darkroom .sidebar li a:hover {
-  color: #fff;
-}
-body.greyroom {
-  background: #777;
-  color: #eee;
-}
-body.greyroom a {
-  color: #eee;
-}
-body.greyroom .sidebar li a:hover {
-  color: #fff;
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
@@ -369,6 +351,10 @@ body.greyroom .sidebar li a:hover {
   }
   body .main-title h2 {
     font-size: 20px;
+  }
+
+  body .main-title a {
+    align: left;
   }
   body .contents {
     margin-left: 200px;

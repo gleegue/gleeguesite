@@ -15,8 +15,8 @@
     <!--<link rel="shortcut icon" href="favicon.ico" />-->
     <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
 </head>
-<!--<body class="{% block section %}home{% endblock %} {% block body_class %}{% endblock body_class %}" onload="prettyPrint()">-->
-<body>
+<body class="{% block section %}home{% endblock %} {% block body_class %}{% endblock body_class %}" onload="prettyPrint()">
+<!--<body>-->
     <div class="container">
         <header class="main-title">
             <h1><a href="{{ url_for("index") }}"><strong>G-Leegue</strong></a></h1>
@@ -25,29 +25,32 @@
         
         <main class="contents" role="main">
             {% block contents %}
-            <p>No content found buddy!</p>
+            <p>No content found.</p>
             {% endblock contents %}
         </main>
         
         <nav class="sidebar">
             <ul>
-                <li class="home"><a href="/" hreflang="en">Home</a></li>
-                <li class="sublocator"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1-TsLhg2NbzardgX6KckQM_p5O5VMesYYabcnwR09fZ0" hreflang="en">Sublocator</a></li>
-                <li class="tracking-sheets"><a href="/track/" hreflang="en">Class Tracks</a></li>
-                <!--<li class="photos"><a href="/photos/" hreflang="en">Photos</a></li>-->
-                <li class="projects"><a href="/projects/" hreflang="en">Projects</a></li>
+                <li class="home"><a href="/">Home</a></li>
                 <li class="blog"><a href="/blog/" hreflang="en">Blog</a></li>
-                <li class="gl-tales"><a href="/gltales/" hreflang="en">GL-Tales</a></li>
-                <li class="resources"><a href="/resources/" hreflang="en">Resources</a></li>
-                <li class="discover-diaries"><a href="/discover/" hreflang="en">Discover Diaries</a></li>
-                <!--<li class="wiki"><a target="_blank" href="http://gleegue.wikidot.com/" hreflang="en">Wiki</a></li>-->
+                <li class="sublocator"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1-TsLhg2NbzardgX6KckQM_p5O5VMesYYabcnwR09fZ0">Sublocator</a></li>
+                <li class="track"><a href="/track/" hreflang="en">Class Tracks</a></li>
+                <!--<li class="photos"><a href="/photos/" hreflang="en">Photos</a></li>-->
+                <li class="projects"><a href="/projects/">Projects</a></li>
+                <li class="shiken"><a href="/shiken/" hreflang="en">Shiken/しけん</a></li>
+                <!--<li class="gltales"><a href="/gltales/">GL-Tales</a></li>-->
+                <li class="resources"><a href="/resources/">Resources</a></li>
             </ul>
         </nav>
 
         <footer class="site-footer">
             <p>
+                <i>
                 <!--— <a href="https://github.com/neotheicebird/gleegue.com">Get site code</a>-->
-                — <a href="https://www.facebook.com/groups/245714685550882/">facebook</a>
+                ⋆ <a href="https://www.facebook.com/groups/245714685550882/">facebook</a>
+                ⋆ <a href="https://github.com/neotheicebird/gleeguesite">Get the code</a>
+                ⋆ <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">License</a>
+                ⋆</i>
             </p>
         </footer>
     </div>
