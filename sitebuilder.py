@@ -109,6 +109,8 @@ def index():
 def page(path):
     # compute current "section" from path
     section = path.split('/')[0]
+    print(section)
+    print(path)
     page = pages.get_or_404(path)
 
     # ensure an accurate "section" meta is available
@@ -121,9 +123,10 @@ def page(path):
 
 @app.route('/<string:section>/')
 def section(section):
-    if not section_exists(section):
-        abort(404)
     template = '%s/index.html' % section
+
+    if not section_exists(section) and not os.path.exists(template):
+            abort(404)
 
     articles = get_pages(pages, limit=SECTION_MAX_LINKS, section=section)
 
