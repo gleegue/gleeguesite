@@ -16,4 +16,4 @@ The session was without doubt a huge success and a curtain raiser for all the ot
 
 [Pictures to be updated]
 
-**~Vasu**
+**~Vasu & Varsha**
