@@ -1,5 +1,5 @@
 title: Mad Lab - 12th July, 2015 
-date: 2015-07-12
+date: 2015-07-16
 tags: [Mad-Lab,]
 section: blog
 published: true
