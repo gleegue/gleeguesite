@@ -12,6 +12,7 @@ or with the **[Science guy](https://www.youtube.com/user/billmnyethescience)**? 
 Hmmm, its a... its... really, you should visit our Mad Lab to feel it. For now, check out what happened in the first MadLab, July 2015 (earth time).
 
 **[MadLab 12th July, 2015](/blog/mad-lab/mad-lab-12th-july-2015/)**
+**[MadLab 12th July, 2015 - Preparations](/blog/mad-lab/mad-lab-12th-july-2015-prep/)**
   
 *Now, now, are you saying you have never seen the Beakman's world or the science guy? and.. still you are not going to click on any of the links above?, 
 Dude, science isn't your forte! 

@@ -312,3 +312,5 @@ Once the final sequence of events have been decided, it is time to verify if the
 2. All experiments will be tested and verified if they work
 3. Possible improvements in the session will be discussed and incorporated
 By the end of the dry run, everything required for the MAD Lab session will be ready.
+
+**~Vasu & Varsha**
