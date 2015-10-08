@@ -2,9 +2,16 @@
 
 {% block contents %}
 <article>
+
     <figure><img src="{{ repo }}/static/img/us-2015.jpg" alt=""></figure>
+{% filter markdown %}
+> Gleegue 2015
+{% endfilter %}
+
     <figure><img src="{{ repo }}/static/img/us.jpg" alt=""></figure>
 {% filter markdown %}
+> Gleegue 2014
+
 Go Gleegue! OK, am done. Now what should I fill this void with? Hmmm... Quotes! (ingenius! works everytime ;) )
     
 > "The first principle is that you must not fool yourself and you are the easiest person to fool."
@@ -13,9 +20,9 @@ Go Gleegue! OK, am done. Now what should I fill this void with? Hmmm... Quotes! 
 > "Stay hungry. Stay foolish." - <strong>Steve Jobs</strong>
  
 > "Empty your mind. Be formless, shapeless, like water" - <strong>Bruce Lee</strong>
-    
+{% endfilter %}
 
 </article>
-{% endfilter %}
+
 
 {% endblock contents %}
