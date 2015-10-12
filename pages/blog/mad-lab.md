@@ -4,7 +4,7 @@ tags: [Mad-Lab,]
 section: blog
 published: true
 
-How would it have been if you as a kid were able to spend a day in **<a href="https://www.youtube.com/channel/UCE5CfDqvAJgkZlTbigkUYXg" target="_blank">Beakman's world</a>**
+How would it have been if you as a kid were able to spend a day in **<a href="https://www.youtube.com/channel/UCVyshphQn9AgViERxg3qycA" target="_blank">Beakman's world</a>**
 or with the **<a href="https://www.youtube.com/user/billmnyethescience" target="_blank">Science guy</a>**? I would pack a lab coat and a pair of safety goggles even now! 
 
 **Mad-Lab** unfolds this magic of science, with the awesome flavour of truth to our kids! its a humble attempt to taking the kids to the edges of reality.
