@@ -15,7 +15,7 @@ Hmmm, its a... its... really, you should visit our Mad Lab to feel it. For now, 
 
 **[MadLab 12th July, 2015 - Preparations](/blog/mad-lab/mad-lab-12th-july-2015-prep/)**
 
-**[Madlab activity - How does our Lungs work?](/blog/mad-lab/mad-lab-11th-october-2015-how-our-lungs-work/)**
+**[MadLab 11th, October - How does our Lungs work?](/blog/mad-lab/mad-lab-11th-october-2015-how-our-lungs-work/)**
 
 <iframe src="https://docs.google.com/presentation/d/17AmJ_nWbKqARiI6itRqItHn_cYGs84P6cTTHtbUbsL4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
