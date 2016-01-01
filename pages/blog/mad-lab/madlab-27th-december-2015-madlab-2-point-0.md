@@ -17,6 +17,9 @@ In contrast to the previous MAD Lab where the boys and girls had parallel but se
 
 Next up was Sri Krishnan with his home-made fire extinguisher. A simple concoction of baking soda, vinegar and water conjured up an effective extinguisher. The kids were taught the concepts of how oxygen and carbon-dioxide, respectively, help and hinder a burning fire. They didn’t need too much cajoling to pay attention, as the magic of a chemical reaction had their eyes glued to SK’s ‘witchcraft’ :p 
 
+![fire-extinguisher](/static/img/MadLab2_0_pic5.jpg)
+> Fire extinguisher
+
 The kids were starting to get a bit restless, so we had our Dr. Amma :p (Shreya) teach the kids how to check their pulses on the wrist. A fifteen second count of the beats times four gave the kids an idea of their heartrates. They seemed to enjoy this activity and I’m pretty sure they were glad to learn something new.
 
 Toptap took over with a brilliant microscope that he’d made himself. His ingenious idea merely needed a phone’s camera as an eyepiece, while the lens took care of the magnification. An onion, salt and fabric were the samples subjected to magnification. As ever, the microscope was a massive hit with the kids as they were awed at how something so splendid could be done with a little effort.
