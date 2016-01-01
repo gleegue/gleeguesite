@@ -34,5 +34,6 @@ The worksheets were all filled up by the end of the session and some of the resp
 ![worksheets](/static/img/MadLab2_0_pic2.jpg)
 > Kids doing their Worksheets
 
-Cheers! 
-Abishek Sekar 
+Cheers!
+
+**~Abishek Sekar**
