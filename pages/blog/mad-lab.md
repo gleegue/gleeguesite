@@ -19,6 +19,8 @@ Hmmm, its a... its... really, you should visit our Mad Lab to feel it. For now, 
 
 **[MadLab 18th October, 2015 - Bionic arm made of cardboard](/blog/mad-lab/mad-lab-18th-october-2015-bionic-arm-made-of-cardboard/)**
 
+**[MadLab 27th December, 2015 - MadLab 2.0](/blog/mad-lab/madlab-27th-december-2015-madlab-2-point-0/)**
+
 <iframe src="https://docs.google.com/presentation/d/17AmJ_nWbKqARiI6itRqItHn_cYGs84P6cTTHtbUbsL4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 **<a href="https://docs.google.com/spreadsheets/d/1XFmZRgR9kzbqC8k0Vs6XP67K7GTIZykcGxlbrP-mUKM/" target="_blank">MadLab Calender</a>** - Check out the calender for upcoming events or updating your status.
